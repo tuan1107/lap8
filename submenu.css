@@ -1,0 +1,31 @@
+.submenu {
+    position: absolute;
+    width: 77%;
+    list-style-type: none;
+    display: none;
+    z-index: 1;
+    background-color: black;  
+}
+
+.submenu li {
+    padding: 0;
+    background:wheat;
+    display: inline-block;
+    width: 100%;
+}
+
+.submenu li a {
+    font-size: 20px;
+    color: orangered;
+    display: inline-block;
+    margin: 0;
+}
+
+.submenu li a:hover{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
